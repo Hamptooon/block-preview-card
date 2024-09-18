@@ -1,0 +1,6 @@
+@mixin text-preset($font-size, $font-weight, $line-height, $letter-spacing){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}

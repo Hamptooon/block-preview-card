@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/css/blogPreviewCard.css">
+    <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+  </head>
+  <body>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="wrapper">
+      <main class="main">
+        <article class="blog-preview-card">
+          <a href="#">
+            <img class="blog-preview-card__image" src="./assets/images/illustration-article.svg" alt="HTML article link">
+          </a>
+          <span class="blog-preview-card__category">Learning</span>
+          <p class="blog-preview-card__date">Published 21 Dec 2023</p>
+          <a href="#" class="blog-preview-card__title"><h6>HTML & CSS foundations</h6></a>
+          <p class="blog-preview-card__description">
+            These languages are the backbone of every website, defining structure, content, and presentation.
+          </p>
+          <div class="blog-preview-card__author">
+            <img class="blog-preview-card__author-image" src="./assets/images/image-avatar.webp" alt="Author">
+            <p class="blog-preview-card__author-name">Garry Karach</p>
+          </div>
+        </article>
+      </main>
+    </div>
+    
+    
+  </body>
 </html>
