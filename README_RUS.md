@@ -30,7 +30,7 @@
 ### 🔗 Ссылки
 
 - [📂 Репозиторий](https://github.com/Hamptooon/block-preview-card)
-- [🌐 Живой пример](https://your-username.github.io/blog-preview-component)
+- [🌐 Живой пример](https://Hamptooon.github.io/block-preview-card)
 
 ---
 

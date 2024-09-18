@@ -30,7 +30,7 @@ This repository contains my solution for the [Blog Preview Card Challenge on Fro
 ### 🔗 Links
 
 - [📂 Repository](https://github.com/Hamptooon/block-preview-card)
-- [🌐 Live Demo](https://your-username.github.io/blog-preview-component)
+- [🌐 Live Demo](https://Hamptooon.github.io/block-preview-card)
 
 ---
 
